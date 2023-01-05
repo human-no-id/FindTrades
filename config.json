@@ -1,0 +1,99 @@
+{
+  "binance": {
+    "abi_api": "https://api.bscscan.com/api",
+    "network": { "mainnet": "https://bsc-dataseed.binance.org/" },
+    "sushiswapB": {
+      "sushiswapB_factory": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
+      "sushiswapB_router": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+      "pool_pairs": {
+        "sushi_wbnb": "0x96337674D5545f357BA353aAa6312d614DcF20cC",
+        "tet_czr": "0x047C4afFbbD55524342447f84DfC63568AE84778",
+        "dreger_mett": "0x5Da1B89745de0266D98A01a614970021873ab9B3",
+        "wbnb_ice": "0x51F914a192a97408D991FddDAFB8F8537C5Ffb0a",
+        "bitt_wbnb": "0x8c48a72aF326DF23e5c16F8858A66eDD56C64a6f",
+        "cake_sushi": "0xd03B21581a9147630deC4b3FD1C5457E73CFCea3",
+        "busdc_wbnb": "0xc7632B7b2d768bbb30a404E13E1dE48d1439ec21",
+        "wbnb_hash": "0xB17EbD66542070432654D5cd3491e0b4a86e0F63"
+      }
+    },
+    "pancakeswap": {
+      "pancakeswap_factory": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+      "pancakeswap_router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+      "pool_pairs": {
+        "sushi_wbnb": "0x7fbD09099838dD0b70068f07a9021d69d9b4813a",
+        "tet_czr": "0x7025D47Bf333316aCCdD6EB83658D3ef594958f4",
+        "dreger_mett": "0x228324f29F0a921E9060CA76E14C6F2AfF539a13",
+        "wbnb_ice": "0xE0C4BEF461540a941cc07790c5Ef77f36C15650f",
+        "bitt_wbnb": "0xc8B10083476EDffBfEf3145eb2F7bd61DADacA5C",
+        "cake_sushi": "0x3DC870dcDde77bc985438F7570f4bC5D960ff26d",
+        "busdc_wbnb": "0xd99c7F6C65857AC913a8f880A4cb84032AB2FC5b",
+        "wbnb_hash": "0xf5212048E32a9f2b42ff0f0F9Fef55047a01678b",
+        "wbnb_bin": "0xe432afB7283A08Be24E9038C30CA6336A7cC8218",
+        "safemoon_wbnb": "0xfF3dD404aFbA451328de089424C74685bf0a43C9",
+        "etc_wbnb": "0x4d2d10B785BF000Dfd19e92cE2D2aE79E119b956",
+        "wbnb_cbt": "0x609EEC3596aD6C200A0fa4d87D581081F7983403",
+        "skill_wbnb": "0xC19dfd34D3ba5816dF9CBDaa02D32A9F8dc6F6fC",
+        "feg_wbnb": "0x2Aa763656A92ce1e6E560c3EA76b4C5fca7C6C14"
+      }
+    },
+    "biswap": {
+      "biswap_factory": "0x858E3312ed3A876947EA49d572A7C42DE08af7EE",
+      "biswap_router": "0x3a6d8cA21D1CF76F653A67577FA0D27453350dD8",
+      "pool_pairs": {
+        "wbnb_bin": "0x7BF229D3E50E2E64f2fb16309291B7e83280808D",
+        "safemoon_wbnb": "0x3668Ca2009aF4c0a4a9e258EF69eAD1FabbfB7da",
+        "etc_wbnb": "0x1Cba970a6E06d4BcC0c4717BE677d1A8AA0211DA",
+        "wbnb_cbt": "0xFf95f4FB93a41c4Ed79598c59524edCd06c6E017",
+        "skill_wbnb": "0x16357C83999cDEd0522a8Bb9C9EE8a91e83C39ee",
+        "feg_wbnb": "0xDaD85c69aC7E3D4c7f9D9F3b317Da865e094e24D"
+      }
+    },
+    "apeswap": {
+      "apeswap_factory": "0x0841BD0B734E4F5853f0dD8d7Ea041c241fb0Da6",
+      "apeswap_router": "0xcF0feBd3f17CEf5b47b0cD257aCf6025c5BFf3b7",
+      "pool_pairs": {}
+    },
+    "mdex": {
+      "mdex_factory": "0x3CD1C46068dAEa5Ebb0d3f55F6915B10648062B8",
+      "mdex_router": "0x7DAe51BD3E3376B8c7c4900E9107f12Be3AF1bA8",
+      "pool_pairs": {}
+    },
+    "sushi": 18,
+    "wbnb": 18,
+    "tet": 18,
+    "czr": 18,
+    "dreger": 18,
+    "mett": 18,
+    "ice": 18,
+    "bitt": 18,
+    "cake": 18,
+    "busdc": 18,
+    "hash": 18,
+    "bin": 18,
+    "safemoon": 9,
+    "etc": 18,
+    "cbt": 18,
+    "skill": 18,
+    "feg": 9,
+    "sushiswapB_pancakeswap": {
+      "selected_ids": [],
+      "selected_names": ["usdc_wbnb", "wbnb_ice", "sushi_wbnb"]
+    },
+    "biswap_pancakeswap": {
+      "selected_ids": [
+        676, 355, 1386, 508, 83, 894, 146, 537, 469, 58, 635, 470, 239, 507,
+        544, 536, 64, 26, 733, 538, 279, 9, 158, 53, 41, 43, 52, 42, 54, 238,
+        468, 582, 702, 85, 1, 778, 13, 119, 2, 82, 84, 78, 7, 69, 125, 177, 145,
+        333, 993
+      ],
+      "selected_names": [
+        "wbnb_bin",
+        "safemoon_wbnb",
+        "wbnb_cbt",
+        "skill_wbnb",
+        "feg_wbnb"
+      ]
+    },
+    "sushiswapB_biswap": { "selected_ids": [], "selected_names": [] }
+  }
+}
